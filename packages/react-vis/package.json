@@ -13,11 +13,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/uber-common/react-vis.git"
+    "url": "https://github.com/vanpav/react-vis"
   },
   "bugs": {
-    "url": "https://github.com/uber-common/react-vis/issues/new",
-    "email": "visualization@uber.com"
+    "url": "https://github.com/vanpav/react-visissues/new",
+    "email": "vanpav@gmail.com"
   },
   "scripts": {
     "docs": "./publish-docs.sh",
