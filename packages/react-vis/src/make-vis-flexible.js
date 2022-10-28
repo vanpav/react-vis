@@ -19,7 +19,6 @@
 // THE SOFTWARE.
 
 import React, {useState, useEffect, useRef} from 'react';
-import window from 'global/window';
 
 import XYPlot from 'plot/xy-plot';
 import {getDOMNode} from 'utils/react-utils';

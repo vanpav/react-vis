@@ -2,6 +2,7 @@
 import jsdom from 'jsdom';
 import Enzyme from 'enzyme';
 import Adapter from '@wojtekmaj/enzyme-adapter-react-17';
+import "jest-canvas-mock";
 
 Enzyme.configure({adapter: new Adapter()});
 
@@ -16,8 +17,3 @@ Object.keys(document.defaultView).forEach(function mapProperties(property) {
 global.navigator = {
   userAgent: 'node.js'
 };
-
-/*
- * Canvas mocks
- */
-HTMLCanvasElement.prototype.getContext = () => {};

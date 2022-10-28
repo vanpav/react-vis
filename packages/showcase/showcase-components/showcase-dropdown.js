@@ -51,7 +51,7 @@ class ShowcaseDropdown extends React.Component {
 }
 
 ShowcaseDropdown.propTypes = {
-  items: PropTypes.arrayOf(PropTypes.component)
+  items: PropTypes.arrayOf(PropTypes.element)
 };
 
 export default ShowcaseDropdown;

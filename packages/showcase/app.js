@@ -20,7 +20,6 @@
 
 import ReactDOM from 'react-dom';
 import React from 'react';
-import document from 'global/document';
 
 import {BrowserRouter, Route} from 'react-router-dom';
 
